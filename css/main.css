@@ -1,0 +1,184 @@
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: black;
+  background-color: #fdfcef;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+.button {
+  background: #ff6861;
+  border-radius: 100px;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  padding: 22px 0;
+  font-weight: 700;
+  line-height: 1.19em;
+  display: block;
+  width: 216px;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+.button:hover,
+.button:focus {
+  background: #f50f05;
+}
+
+img {
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+section {
+  padding-bottom: 120px;
+}
+
+p {
+  line-height: 1.37em;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.4em;
+  margin: 0;
+}
+
+.logo {
+  margin-top: 60px;
+  margin-bottom: 82px;
+  display: flex;
+}
+
+.logo__image {
+  width: 35px;
+  height: 28px;
+  margin-right: 10px;
+}
+
+.logo__name {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-card__name {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.hero-card__description {
+  margin-bottom: 30px;
+  width: 423px;
+}
+
+.hero-image {
+  width: 465px;
+}
+
+.features-container {
+  width: 720px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.features-title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.features-card {
+  display: flex;
+  margin-bottom: 41px;
+}
+
+.features-card__image {
+  margin-right: 34px;
+  width: 73px;
+}
+
+.feature-card__title {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 11px;
+}
+
+.action > .container {
+  background: linear-gradient(102deg, #fff6df 17.38%, #ffdfde 81.25%);
+  border-radius: 60px;
+}
+
+.action > .container > div {
+  display: flex;
+  align-items: center;
+}
+
+.action-title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.action-description {
+  margin-bottom: 24px;
+  width: 371px;
+}
+
+.action-image {
+  width: 287px;
+}
+
+.action .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 76px 125px 75px 122px;
+  gap: 101px;
+}
+
+.rights {
+  text-align: center;
+  margin-bottom: 120px;
+  font-size: 15px;
+}
