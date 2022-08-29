@@ -225,6 +225,10 @@ h6 {
     width: 720px;
   }
 
+  .features-container {
+    width: auto;
+  }
+
   .action-card {
     display: flex;
     flex-direction: column;
@@ -239,14 +243,6 @@ h6 {
     text-align: center;
   }
 }
-
-/* Small: 576px - 767px */
-/* @media (max-width: 767px) {
-  .container {
-    max-width: 540px;
-  }
-
-} */
 
 /* Extra small: 0px (320px) - 767px */
 @media (max-width: 767px) {
@@ -270,6 +266,10 @@ h6 {
 
   .hero-card__description {
     width: 320px;
+  }
+
+  .features-container {
+    width: auto;
   }
 
   .features-title {
